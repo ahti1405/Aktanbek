@@ -1,0 +1,9 @@
+
+{% block content %}
+{% for category in categories %}
+<p>{{category.name }}</p>
+{% for product in category.products.all %}
+{{ product.name }}
+{% endfor %}
+{% endfor %}
+ {% endblock content %}

@@ -1,0 +1,172 @@
+
+{%load static%}
+
+<style>
+   table, th, td {
+  border: 1px solid #ddd;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse; 
+}
+th {
+
+    background-color: #062d5d;
+    border: 1px solid #3f618c!important;
+    color: #ffffff;
+    height: 70px;
+    width: 100px;
+}
+
+td {
+    color: #666;
+    text-align: center;
+    padding: 5px;
+}
+
+.some {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    background-color: grey;
+}
+
+
+.item {
+    
+    border: solid 1px #ddd;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    
+}
+
+.table {
+    position: absolute;
+    right: 10px; 
+}
+
+
+tr:hover {background-color: #eaf7fe;}
+
+tr:nth-child(even) {background-color: #fafafa;}
+    </style>
+
+
+
+   
+<p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+
+    * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+<p>{{ table }}</p>
+
+<div class="some">
+
+<div class="item">
+    <img width="590" height="443" src="{{ product.img.url }}">
+</div>
+
+<div class="table">
+    <table>
+        <thead class="table-header">
+            <tr>
+                <th scope="col">Code</th>
+                <th scope="col">Size</th>
+                <th scope="col">Packing</th>
+            </tr>
+        </thead>
+       
+        <tbody>
+            {% for item in items %}
+        <tr>
+          <td>{{ item.Code }}</td>
+          <td>{{ item.Size }}</td>
+          <td>{{ item.Packing }}</td>
+        </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+</div>
+
+
+<p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+
+        * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+        <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+
+            * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+            <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+
+                * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+                <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+
+                    * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+                    <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+
+                        * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+                        <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+
+                            * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+                                                            
+
+                            <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+
+                                * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+                                <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+                        
+                                    * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+                                    <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+                        
+                                        * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+                                        <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+                        
+                                            * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+                                            <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+                        
+                                                * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+                                                <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+                        
+                                                    * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+                                                    <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+
+                                                        * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+                                                        <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+                                                
+                                                            * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+                                                            <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+                                                
+                                                                * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+                                                                <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+                                                
+                                                                    * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+                                                                    <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+                                                
+                                                                        * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+                                                                        <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+                                                
+                                                                            * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+                                                                                                            
+                                                
+                                                                            <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+                                                
+                                                                                * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+                                                                                <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+                                                                        
+                                                                                    * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+                                                                                    <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+                                                                        
+                                                                                        * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+                                                                                        <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+                                                                        
+                                                                                            * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+                                                                                            <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+                                                                        
+                                                                                                * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+                                                                                                <p>Ürünlerimiz açılı sıkma özelliği sayesinde borularda meydana gelebilecek ölçü farklarının meydana getirebileceği olumsuzlukları ortadan kaldırdığı gibi, üretim esnasında kullanılan bütün materyaller, yüksek kalitede çok yönlü yapılan testlerin ardından, herhangi bir bakteri oluşumu, yosunlaşma, suyun kokusunu ve tadını değiştirmeyecek şekilde üretilmiştir.
+                                                                        
+                                                                                                    * Kaplin Erkek siparişlerinizi ambalaj içerisindeki adetler ya da katları olarak verebilir, Kaplin Grubu kategorisinden istediğiniz ürün için sadece kod numarasını söylemeniz yeterlidir.</p>
+                                                                                                    
+                        
